@@ -1,5 +1,9 @@
 # npm2py-inspector
 
+[![PyPI](https://img.shields.io/pypi/v/npm2py-inspector.svg)](https://pypi.org/project/npm2py-inspector/)
+[![Downloads](https://img.shields.io/pypi/dm/npm2py-inspector.svg)](https://pypistats.org/packages/npm2py-inspector)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A zero-dependency **static health checker** for NPM, React, and TypeScript projects—written entirely in Python!
 
 It reads your `package.json`, `.tsx` files, and `tsconfig.json` to flag common problems, such as missing lockfiles, usage of the `any` type in TypeScript, massive React components, and unpinned dependencies. **It never imports or executes your JavaScript/TypeScript code.**
